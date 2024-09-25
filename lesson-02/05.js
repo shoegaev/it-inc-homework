@@ -3,4 +3,6 @@ let passport = {
   surname: "Petrov",
 };
 let passport2 = { ...passport, name: "Ivan" };
-console.log(passport.name, passport2.name);
+console.log(passport.name);
+console.log(passport2.name);
+
