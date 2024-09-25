@@ -8,4 +8,5 @@ let passportMarried = {
 };
 const passportMarried1 = JSON.parse(JSON.stringify(passportMarried));
 passportMarried1.married = true;
-console.log(passportMarried.married, passportMarried1.married);
+console.log(passportMarried.married);
+console.log(passportMarried1.married);
